@@ -5,14 +5,14 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    commit-message:
-      prefix: chore
-      include: scope
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: "daily"
       time: "11:20"  # UTC
+    commit-message:
+      prefix: chore
+      include: scope
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
