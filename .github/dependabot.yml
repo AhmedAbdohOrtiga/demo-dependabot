@@ -9,7 +9,7 @@ updates:
     directory: "/javascript"
     schedule:
       interval: "daily"
-      time: "11:20"  # UTC
+      time: "11:45"  # UTC
     commit-message:
       prefix: chore
       include: scope
